@@ -43,3 +43,6 @@ student.addCourse = function (course) {
 student.getTotalCourses = function () {
     return this.courses.length;
 };
+// Add a new course
+student.addCourse('Computer Science');
+console.log(student.courses);  // ['Math', 'Science', 'History', 'Computer Science']
