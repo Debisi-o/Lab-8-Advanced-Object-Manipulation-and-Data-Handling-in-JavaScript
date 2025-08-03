@@ -46,3 +46,5 @@ student.getTotalCourses = function () {
 // Add a new course
 student.addCourse('Computer Science');
 console.log(student.courses);  // ['Math', 'Science', 'History', 'Computer Science']
+// Get total number of courses
+console.log(student.getTotalCourses());  // 4
