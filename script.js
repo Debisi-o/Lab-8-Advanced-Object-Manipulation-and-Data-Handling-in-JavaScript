@@ -10,3 +10,7 @@ const student = {
         console.log(`Name: ${this.name}, Age: ${this.age}`);
     }
 };
+// Output the name, age, and method result
+console.log(student.name);  // John Doe
+console.log(student.age);   // 22
+student.displayInfo();      // Name: John Doe, Age: 22
