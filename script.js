@@ -48,3 +48,6 @@ student.addCourse('Computer Science');
 console.log(student.courses);  // ['Math', 'Science', 'History', 'Computer Science']
 // Get total number of courses
 console.log(student.getTotalCourses());  // 4
+// Using reduce to calculate the average score
+const averageScore = scores.reduce((total, score) => total + score, 0) / scores.length;
+console.log(averageScore);  // Output average score
