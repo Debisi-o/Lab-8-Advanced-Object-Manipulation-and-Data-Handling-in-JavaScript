@@ -35,3 +35,7 @@ console.log(clonedStudent);  // New object with added property
 const newCourses = ['Philosophy', 'Art'];
 const allCourses = [...student.courses, ...newCourses];
 console.log(allCourses);  // ['Math', 'Science', 'History', 'Philosophy', 'Art']
+// Add new course method
+student.addCourse = function (course) {
+    this.courses.push(course);
+};
