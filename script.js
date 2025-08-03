@@ -39,3 +39,7 @@ console.log(allCourses);  // ['Math', 'Science', 'History', 'Philosophy', 'Art']
 student.addCourse = function (course) {
     this.courses.push(course);
 };
+// Calculate total number of courses
+student.getTotalCourses = function () {
+    return this.courses.length;
+};
