@@ -31,3 +31,7 @@ console.log(score1, score2);  // 85 92
 // Cloning student object using spread operator
 const clonedStudent = { ...student, graduationYear: 2025 };
 console.log(clonedStudent);  // New object with added property
+// Merging two arrays
+const newCourses = ['Philosophy', 'Art'];
+const allCourses = [...student.courses, ...newCourses];
+console.log(allCourses);  // ['Math', 'Science', 'History', 'Philosophy', 'Art']
