@@ -14,3 +14,6 @@ const student = {
 console.log(student.name);  // John Doe
 console.log(student.age);   // 22
 student.displayInfo();      // Name: John Doe, Age: 22
+// Convert student object to JSON string
+const studentJSON = JSON.stringify(student);
+console.log(studentJSON);  // Output JSON string
