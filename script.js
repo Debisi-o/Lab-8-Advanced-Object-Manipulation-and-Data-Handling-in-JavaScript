@@ -20,3 +20,7 @@ console.log(studentJSON);  // Output JSON string
 // Convert JSON string back into a JavaScript object
 const studentObj = JSON.parse(studentJSON);
 console.log(studentObj);  // The student object
+// Destructuring student object
+const { name, courses } = student;
+console.log(name);  // John Doe
+console.log(courses);  // ['Math', 'Science', 'History']
